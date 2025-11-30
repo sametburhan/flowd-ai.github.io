@@ -1,0 +1,27 @@
+site_name: FlowD-Ai
+site_url: https://flowd-ai.github.io/
+
+theme:
+  name: material
+  language: en
+  palette: 
+    # Espressif gibi koyu üst bar, açık içerik için:
+    - scheme: default
+      primary: teal
+      accent: purple
+    # İsterseniz kullanıcıya koyu mod (dark mode) seçeneği sunmak için:
+  features:
+    - navigation.tabs # Üstte sekmeler
+    - navigation.sections # Sol menüde gruplama
+    - navigation.expand # Sol menüde açılır/kapanır oklar
+    - search.suggest # Arama önerileri
+    - search.highlight # Aramada bulunan kelimeyi parlatma
+
+# Sol Menü Yapısı (Burası en önemlisi)
+nav:
+  - Getting Started: index.md
+  - Installation: installation.md
+  - User Manual:
+    - Interface Introduction: usage/interface.md
+    - Features: usage/features.md
+  - Technical Details: technical.md
